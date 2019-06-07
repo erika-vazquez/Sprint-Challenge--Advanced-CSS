@@ -1,3 +1,6 @@
+.grayColor {
+  background-color: #e6dede;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -161,9 +164,9 @@ p {
   margin: 0 auto;
 }
 .top-bar {
+  background-color: #e6dede;
   margin-top: 20px;
   padding-bottom: 15px;
-  background-color: lightgray;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
