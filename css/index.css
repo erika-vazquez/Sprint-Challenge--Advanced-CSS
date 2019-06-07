@@ -1,5 +1,5 @@
 .grayColor {
-  background-color: #e6dede;
+  background-color: #fcf9f9;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -164,8 +164,9 @@ p {
   margin: 0 auto;
 }
 .top-bar {
-  background-color: #e6dede;
-  margin-top: 20px;
+  background-color: #fcf9f9;
+  padding-top: 20px;
+  margin-left: 20px;
   padding-bottom: 15px;
   flex-direction: column;
   flex-wrap: wrap;
@@ -217,17 +218,24 @@ footer {
   justify-content: center;
   align-items: center;
 }
+.planet {
+  border-top: 1px solid #bbb7b7;
+  width: 1000px;
+  margin-left: -10%;
+  display: flex;
+  justify-content: center;
+}
 .home .intro h2 {
   padding: 15px;
 }
 .home .intro p {
   padding: 0 15px;
 }
-.home .intro img {
-  border-top: 2px solid #928888;
+.home .intro .intro img {
+  width: 800px;
 }
 @media (max-width:500px) {
-  .home .intro img {
+  .home .intro .intro img {
     width: 100%;
   }
 }
