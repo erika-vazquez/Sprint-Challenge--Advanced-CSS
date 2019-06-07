@@ -11,7 +11,10 @@
     p {
       padding:0 15px;
     }
-  
+     //need to make line wide
+  }
+  .intro img{
+    border-top: 2px solid rgb(146, 136, 136);
   }
 
   .space-images {
@@ -29,6 +32,9 @@
 
   .visit-planets {
     padding: 15px;
+    padding-bottom: 40px;
+    border-bottom: 2px lightgray solid; 
+
 
     h3 {
       margin-top: 11px;
@@ -40,25 +46,36 @@
   }
 
   .walk {
-    margin-top: 60px;
-    border-top: 1px solid @main-border-color;
+    margin-top: 0px;
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-
+  
     .walk-text {
       width: 50%;
 
       h3 {
+        
         margin-bottom: 10px;
       }
 
       p {
         margin-bottom: 26px;
-      }
-
+      }}
+//PARAMETRIC MIXIN
       .btn {
-      }
+        .mixin(white,20px,@btn-bg-color,100px);
+       // .border(5px);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+     } 
+//HOVER COLOR CHANGE
+     .btn:hover{
+       background: white;
+       color:@btn-bg-color;
+     }
+
     }
 
     .walk-img {
@@ -71,5 +88,5 @@
         border-radius: 10px;
       }
     }
-  }
+  
 }// home
