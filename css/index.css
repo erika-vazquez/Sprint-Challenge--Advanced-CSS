@@ -181,6 +181,18 @@ p {
   padding-bottom: 20px;
   color: #030346;
   font-size: 50px;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .top-bar nav {
   margin-left: 0px;
